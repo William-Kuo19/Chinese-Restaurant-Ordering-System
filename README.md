@@ -99,9 +99,9 @@
 - 📄 `orders`：訂單資料
 - 📋 `order_detail`：訂單明細
 
-### Entity Relationship Diagram（ER Diagram）
+### 實體關係圖（ER Diagram）
 
-此 ER Diagram 展示會員、商品、訂單與訂單明細之間的關聯設計，作為本系統資料庫模型的核心。
+此實體關係圖（ER Diagram）展示會員、商品、訂單與訂單明細之間的關聯設計，作為本系統資料庫模型的核心。
 ![ER Diagram](docs/database/er-diagram.png)
 
 ---
