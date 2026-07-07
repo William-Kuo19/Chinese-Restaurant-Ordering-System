@@ -1,5 +1,6 @@
 # 🍽 中式餐廳點餐管理系統
 ### Chinese Restaurant Ordering System
+![Version](https://img.shields.io/badge/Version-v1.0.0-blue)
 
 ![Java](https://img.shields.io/badge/Java-11-orange)
 ![Swing](https://img.shields.io/badge/GUI-Java%20Swing-blue)
@@ -76,17 +77,18 @@
 | 版本控制 | Git / GitHub |
 
 
-## 🏗 System Architecture
+## 🏗 系統架構（System Architecture）
 
 ![](docs/architecture/system-architecture.png)
 
 ---
 
-## 🧩 MVC Architecture
+## 🧩 MVC 架構（MVC Architecture）
 
 ![](docs/architecture/mvc-architecture.png)
 
 ---
+
 
 ## 🗄 資料庫設計（Database Design）
 
@@ -104,15 +106,30 @@
 
 ---
 
-## 🔄 Ordering Workflow
+## 🔄 點餐流程（Ordering Workflow）
 
-以下流程展示使用者從登入、商品瀏覽、加入購物車、確認訂單、產生 PDF 收據到寫入 MySQL 資料庫的完整流程。
+以下流程展示本系統的完整操作流程：
+
+1. 使用者登入（LoginUI）
+2. 身分驗證（Authentication）
+3. 成功登入後進入主畫面（MainUI / Dashboard）
+4. 使用者可選擇：
+   - 🛒 點餐系統（Shopping UI）
+   - 🍽 商品管理（Product UI）
+   - 👤 會員管理（Member UI）
+   - 📄 訂單管理（Order UI）
+5. 點餐流程包含：
+   - 商品瀏覽
+   - 加入購物車
+   - 確認訂單
+   - 產生 PDF 收據
+   - 將訂單儲存至 MySQL Database
 
 ![](docs/workflow/ordering-workflow.png)
 
 ---
 
-## 📁 專案目錄（Project Structure）
+## 📁 專案結構（Project Structure）
 
 本專案採用 Maven 標準目錄結構，並依 MVC + DAO Pattern 進行模組化設計。
 
